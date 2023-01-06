@@ -9,7 +9,7 @@ _this case study follows the six steps of data analysis process:_
 
 ### [ASK](#1.ASK)
 ### [PREPARE](#2.PREPARE)
-### [PROCESS]
+### [PROCESS](#3.PROCESS)
 ### [ANALYSIS]
 ### [SHARE]
 ### [ACT]
@@ -39,3 +39,7 @@ The dataset has 12 CSV, 13 columns and 351310 obs. The data also follow a ROCCC 
 The dataset has limitations:
 
 - NA values: after checking `sum(is.na(bike_data))`, we see the dataset has 460 NA values, such as in starting_station_id, end_station_id. Further investigation we noticed the NA values are mostly under rideable type: electric bike. Future investigations may be needed by the station names are not entered for electric bike.
+
+- Personally identifiable information:There is no such a information to show that the rider is unique rider or same rider who ride more than once as casual rider or member.
+
+# 3.PROCESS
