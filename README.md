@@ -10,7 +10,7 @@ _this case study follows the six steps of data analysis process:_
 ### [ASK](#1.ASK)
 ### [PREPARE](#2.PREPARE)
 ### [PROCESS](#3.PROCESS)
-### [ANALYSIS]
+### [ANALYSIS](#4.ANALYSIS)
 ### [SHARE]
 ### [ACT]
 
@@ -43,3 +43,29 @@ The dataset has limitations:
 - Personally identifiable information:There is no such a information to show that the rider is unique rider or same rider who ride more than once as casual rider or member.
 
 # 3.PROCESS
+cheking and examine the data
+```
+head(bike_data)
+dim(bike_data)
+colnames(bike_data)
+summary(bike_data)
+```
+
+creating ride_length column for duration of ride calculated from start and end time of rides
+```
+bike_data$ride_length <- difftime(bike_data$ended_at,bike_data$started_at)
+```
+
+Add column "day_of_week,", and calculate the day of the week that each ride started.
+```
+bike_data <- bike_data%>% mutate(day_of_week = weekdays(as.Date(bike_data$started_at)))
+```
+
+remove data error
+```
+bike_data <- bike_data[bike_data$ride_length>0,] 
+sum(bike_data$ride_length > 86400)
+```
+now data is ready to analyze
+
+# 4.ANALYSIS
