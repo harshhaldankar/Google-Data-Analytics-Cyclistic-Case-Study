@@ -26,7 +26,7 @@ Primary stakeholders: The director of marketing Lily Moreno and Cyclistic execut
 Secondary stakeholders: Cyclistic marketing analytics team.
 
 # 2.PREPARE
-Data Source: 12 Month (Jan 2022 to Jan 2023) of Cyclistic trip Data from Motivate International Inc: [data source link](https://divvy-tripdata.s3.amazonaws.com/index.html) with [license](https://www.divvybikes.com/data-license-agreement).
+Data Source: 12 Month (Jan 2021 to Jan 2022) of Cyclistic trip Data from Motivate International Inc: [data source link](https://divvy-tripdata.s3.amazonaws.com/index.html) with [license](https://www.divvybikes.com/data-license-agreement).
 
 The dataset has 12 CSV, 13 columns and 351310 obs. The data also follow a ROCCC approach:
 
