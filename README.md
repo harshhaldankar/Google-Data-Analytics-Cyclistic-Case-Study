@@ -56,7 +56,7 @@ creating ride_length column for duration of ride calculated from start and end t
 bike_data$ride_length <- difftime(bike_data$ended_at,bike_data$started_at)
 ```
 
-Add column "day_of_week,", and calculate the day of the week that each ride started.
+add column "day_of_week,", and calculate the day of the week that each ride started.
 ```
 bike_data <- bike_data%>% mutate(day_of_week = weekdays(as.Date(bike_data$started_at)))
 ```
