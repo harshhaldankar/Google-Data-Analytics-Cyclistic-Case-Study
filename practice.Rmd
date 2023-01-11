@@ -3,17 +3,9 @@ title: "cyclist case study"
 author: "harsh haldankar"
 date: "2023-1-11"
 output:
-  word_document: default
   html_document: default
 ---
-
-```{r ggplot for penguin data }
-library(ggplot2)
-
-library(palmerpenguins)
-```
  
-
 #### Load the packages
 
 ```{r}
