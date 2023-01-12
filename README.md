@@ -12,7 +12,7 @@ _this case study follows the six steps of data analysis process:_
 ### [PROCESS](#3.PROCESS)
 ### [ANALYSIS](#4.ANALYSIS)
 ### [SHARE](#5.SHARE)
-### [ACT]
+### [ACT](#6.ACT)
 
 ## Scenario
 A bike-share company in Chicago. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore,
@@ -125,6 +125,18 @@ visualize the number of ride by rider type on weekday
 
 ![image](https://user-images.githubusercontent.com/121929260/212097919-5f00663a-b257-413d-bcd0-caac1549ca1f.png)
 
-for complete R code view the emd file [R code file :-](https://github.com/harshhaldankar/Google-Data-Analytics-Cyclistic-Case-Study/blob/main/cyclistic%20case%20study%20.Rmd)
+for complete R code view the emd file:- [R code file](https://github.com/harshhaldankar/Google-Data-Analytics-Cyclistic-Case-Study/blob/main/cyclistic%20case%20study%20.Rmd)
 
 # 5.SHARE
+sharing my tabealu dashboard
+
+[Tableau Dashboard](https://public.tableau.com/views/cyclisticdataanalysis/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
+sharing my tabealu presentation
+
+[Tableau Presentation](https://public.tableau.com/views/cyclisticdataanalysis/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
+here i share my analyze data in the form visualization.
+
+# 6.ACT
+
