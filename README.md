@@ -128,24 +128,24 @@ visualize the number of ride by rider type on weekday
 for complete R code view the emd file:- [R code file](https://github.com/harshhaldankar/Google-Data-Analytics-Cyclistic-Case-Study/blob/main/cyclistic%20case%20study%20.Rmd)
 
 # 5.SHARE
-sharing my tabealu dashboard
+Sharing my tabealu dashboard
 
 [Tableau Dashboard](https://public.tableau.com/views/cyclisticdataanalysis/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
-sharing my tabealu presentation
+Sharing my tabealu presentation
 
 [Tableau Presentation](https://public.tableau.com/views/cyclisticdataanalysis/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
-here i share my analyze data in the form visualization.
+Here i share my analyze data in the form visualization.
 
 # 6.ACT
 
-conclusion based on analysis :
+Conclusion based on analysis :
 - Casual riders mostly ride during summers in june and july month
 - Casual riders mostly ride on weekends
 - Casual riders ride longer duration, but least total trips.
 
-recommendations to convert casual riders into member:
+Recommendations to convert casual riders into member:
 
 - As casual rider usage often peaks on the weekend, the marketing campaign can include weekend only membership membership subscription at lower price to attract casual   riders to convert to members
 - Most of casual riders rides on summer months in June,July,August so for marketing campaign can focuse on special membership
