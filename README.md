@@ -11,7 +11,7 @@ _this case study follows the six steps of data analysis process:_
 ### [PREPARE](#2.PREPARE)
 ### [PROCESS](#3.PROCESS)
 ### [ANALYSIS](#4.ANALYSIS)
-### [SHARE]
+### [SHARE](#5. SHARE)
 ### [ACT]
 
 ## Scenario
@@ -69,3 +69,62 @@ sum(bike_data$ride_length > 86400)
 now data is ready to analyze
 
 # 4.ANALYSIS
+ 
+checking max min ride length
+```
+max(bike_data$ride_length) #max ride length
+max(bike_data$ride_length) #min ride length
+```
+
+aggregate the data
+
+```
+aggregate(bike_data$ride_length ~ bike_data$member_casual, FUN = mean)
+aggregate(bike_data$ride_length ~ bike_data$member_casual, FUN = median)
+aggregate(bike_data$ride_length ~ bike_data$member_casual, FUN = max)
+aggregate(bike_data$ride_length ~ bike_data$member_casual, FUN = min)
+```
+
+Average ride time by each day for members vs casual users
+```
+aggregate(bike_data$ride_length ~ bike_data$member_casual + bike_data$day_of_week, FUN = mean)
+```
+
+analyze data by type and weekdays
+```
+bike_data %>% 
+  mutate(weekday = wday(started_at, label = TRUE)) %>%  
+  group_by(member_casual, weekday) %>%  
+  summarise(number_of_rides = n()							
+            ,average_duration = mean(ride_length)) %>% 		
+  arrange(member_casual, weekday)
+```
+
+```{r}
+bike_data %>% 
+  mutate(weekday = wday(started_at, label = TRUE)) %>%  
+  group_by(member_casual, weekday) %>%  
+  summarise(number_of_rides = n()							
+            ,average_duration = mean(ride_length)) %>% 		
+  arrange(member_casual, weekday)
+```
+
+```{r}
+bike_data %>% 
+  mutate(weekday = wday(started_at, label = TRUE)) %>%  
+  group_by(member_casual, weekday) %>%  
+  summarise(number_of_rides = n()							
+            ,average_duration = mean(ride_length)) %>% 		
+  arrange(member_casual, weekday)
+```
+
+visualize the number of ride by rider type on weekday
+
+![image](https://user-images.githubusercontent.com/121929260/212097047-c2626270-25bb-4c8b-96a3-7cac74e785c3.png)
+
+
+![image](https://user-images.githubusercontent.com/121929260/212097919-5f00663a-b257-413d-bcd0-caac1549ca1f.png)
+
+for complete R code view the emd file [R code file :-](https://github.com/harshhaldankar/Google-Data-Analytics-Cyclistic-Case-Study/blob/main/cyclistic%20case%20study%20.Rmd)
+
+# 5.SHARE
