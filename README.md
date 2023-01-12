@@ -3,7 +3,7 @@ Author: Harsh Haldankar
 
 Date: jan 1,2023
 
-#
+#### [Tableau Dashboard](https://public.tableau.com/views/cyclisticdataanalysis/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 _this case study follows the six steps of data analysis process:_
 
