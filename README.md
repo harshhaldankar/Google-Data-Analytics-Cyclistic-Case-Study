@@ -140,3 +140,10 @@ here i share my analyze data in the form visualization.
 
 # 6.ACT
 
+conclusion based on analysis :
+- Casual riders mostly ride during summers in june and july month
+- Casual riders mostly ride on weekends
+- Casual riders ride longer duration, but least total trips.
+
+recommendations to convert casual riders into member:
+
