@@ -147,3 +147,6 @@ conclusion based on analysis :
 
 recommendations to convert casual riders into member:
 
+- As casual rider usage often peaks on the weekend, the marketing campaign can include weekend only membership membership subscription at lower price to attract casual   riders to convert to members
+- Most of casual riders rides on summer months in June,July,August so for marketing campaign can focuse on special membership
+- Mostly Casual riders ride long rides so can give dicount on annual membership discount based on ride length or we can give dicount. 
