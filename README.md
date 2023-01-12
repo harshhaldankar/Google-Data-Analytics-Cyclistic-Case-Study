@@ -11,7 +11,7 @@ _this case study follows the six steps of data analysis process:_
 ### [PREPARE](#2.PREPARE)
 ### [PROCESS](#3.PROCESS)
 ### [ANALYSIS](#4.ANALYSIS)
-### [SHARE](#5. SHARE)
+### [SHARE](#5.SHARE)
 ### [ACT]
 
 ## Scenario
