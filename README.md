@@ -100,32 +100,15 @@ bike_data %>%
   arrange(member_casual, weekday)
 ```
 
-```{r}
-bike_data %>% 
-  mutate(weekday = wday(started_at, label = TRUE)) %>%  
-  group_by(member_casual, weekday) %>%  
-  summarise(number_of_rides = n()							
-            ,average_duration = mean(ride_length)) %>% 		
-  arrange(member_casual, weekday)
-```
-
-```{r}
-bike_data %>% 
-  mutate(weekday = wday(started_at, label = TRUE)) %>%  
-  group_by(member_casual, weekday) %>%  
-  summarise(number_of_rides = n()							
-            ,average_duration = mean(ride_length)) %>% 		
-  arrange(member_casual, weekday)
-```
-
 visualize the number of ride by rider type on weekday
 
 ![image](https://user-images.githubusercontent.com/121929260/212097047-c2626270-25bb-4c8b-96a3-7cac74e785c3.png)
 
+visualize the avg length of ride by rider type on weekday
 
 ![image](https://user-images.githubusercontent.com/121929260/212097919-5f00663a-b257-413d-bcd0-caac1549ca1f.png)
 
-for complete R code view the emd file:- [R code file](https://github.com/harshhaldankar/Google-Data-Analytics-Cyclistic-Case-Study/blob/main/cyclistic%20case%20study%20.Rmd)
+for complete R code view the Rmd file:- [R code file](https://github.com/harshhaldankar/Google-Data-Analytics-Cyclistic-Case-Study/blob/main/cyclistic%20case%20study%20.Rmd)
 
 # 5.SHARE
 Sharing my tabealu dashboard
